@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile Card</title>
+<style>
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #4A90E2;
+    }
+
+    .card h2 {
+      margin: 15px 0 5px;
+      color: #333;
+    }
+
+    .card p {
+      color: #777;
+      margin: 5px 0 15px;
+    }
+
+    .card .btn {
+      background-color: #4A90E2;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .card .btn:hover {
+      background-color: #357ABD;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="image.jpg" alt="Profile Picture">
+    <h2>Sharaaz Syed</h2>
+    <p>Web Designer</p>
+    <a class="btn" href="#">Follow</a>
+  </div>
+
+</body>
+</html>
